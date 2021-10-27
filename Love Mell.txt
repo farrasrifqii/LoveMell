@@ -1,0 +1,49 @@
+<html>
+<head>
+<title> NURUL AMMELIA PHONNA </title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("hehe.. awk juga sayang mel kok<3")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=430
+            Bn.style.left=330
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=510
+            Bn.style.left=70
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=450
+            Bn.style.left=185
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> PERTANYAAN!!! <h1>
+<img alt="Foto Mell" src="https://drive.google.com/uc?export=view&id=1la2J_jOI-kAXTHxqb3DNh7yZqtpWNZZ8" height="300" />
+<h1 style="#">Mell sayang Farras gak?????</h1>
+<div id="By" style="position:absolute; left:74px; top:430px; width:310px;
+height:310px;">
+<input type="button" value=" SAYANG KALI.." onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:200px; top:430px; width:210px; height:210px;">
+<input type="button" value=" ENGGAK :) " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
+
